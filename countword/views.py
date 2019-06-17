@@ -23,3 +23,6 @@ def count(request):
 
     #返回到另一个页面
     return render(request,'count.html',{'count_result':result})
+
+def about(request):
+    return render(request,'about.html')
